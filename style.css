@@ -366,3 +366,131 @@ select{
   height: 19px;
   width: 0px;
 }
+/* Mobile Devices (up to 480px) */
+@media only screen and (max-width: 480px) {
+  .hero > :first-child {
+    font-size: 32px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 16px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 14px;
+  }
+  .herobtns input {
+    padding: 12px 100px 12px 10px;
+  }
+  .btn-red-gt {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .mainbox {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .mainbox h2 {
+    font-size: 20px;
+  }
+  .mainbox p {
+    font-size: 14px;
+  }
+  .stackimg {
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+  .secondcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .footcontainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footcontainer ul {
+    text-align: center;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .hero > :first-child {
+    font-size: 36px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 15px;
+  }
+  .herobtns input {
+    padding: 15px 150px 15px 10px;
+  }
+  .btn-red-gt {
+    font-size: 18px;
+    padding: 12px 22px;
+  }
+  .mainbox {
+    width: 45%;
+    margin-top: 10px;
+  }
+  .mainbox h2 {
+    font-size: 22px;
+  }
+  .mainbox p {
+    font-size: 15px;
+  }
+  .stackimg {
+    width: 90%;
+    height: auto;
+    left: 0;
+  }
+  .secondcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .footcontainer {
+    flex-direction: row;
+    gap: 60px;
+  }
+}
+
+/* Laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero > :first-child {
+    font-size: 40px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 20px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 16px;
+  }
+  .herobtns input {
+    padding: 18px 180px 18px 10px;
+  }
+  .btn-red-gt {
+    font-size: 20px;
+    padding: 14px 24px;
+  }
+  .mainbox {
+    width: 22rem;
+  }
+  .mainbox h2 {
+    font-size: 24px;
+  }
+  .mainbox p {
+    font-size: 16px;
+  }
+  .stackimg {
+    width: 50%;
+    height: auto;
+    left: 20px;
+  }
+  .secondcontent {
+    width: 45%;
+  }
+  .footcontainer {
+    gap: 80px;
+  }
+}
