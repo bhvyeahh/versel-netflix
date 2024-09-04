@@ -404,11 +404,10 @@ select{
     text-align: center;
   }
   .footcontainer {
+    display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  .footcontainer ul {
-    text-align: center;
+    align-items: center;
   }
 }
 
