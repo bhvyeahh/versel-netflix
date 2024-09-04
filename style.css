@@ -209,15 +209,16 @@ nav button {
 }
 .mbox2 span{
   color: white;
-  margin: 27px;
+  margin: 12px;
 }
 .mbox3 span{
   color: white;
+  margin: 12px;
 
 }
 .mbox4 span{
   color: white;
-  margin: 22px;
+  margin: 12px;
 }
 .secondbox{
   position: relative;
@@ -323,7 +324,6 @@ nav button {
   color: rgb(199, 193, 193);
   display: flex;
   gap: 150px;
-  list-style: none;
 }
 .footlists{
   /* background-color: grey; */
@@ -371,6 +371,15 @@ select{
   .hero > :first-child {
     font-size: 32px;
   }
+  .main img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    padding: 4px 10px;
+  }
   .hero > :nth-child(2) {
     font-size: 16px;
   }
@@ -394,32 +403,69 @@ select{
   .mainbox p {
     font-size: 14px;
   }
+  .stackimg {
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+  .ph-no{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .bfrfoot {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    align-content: center;
     justify-content: center;
+    align-items: center; /* Center content horizontally */
+    width: 100%; /* Ensure full width */
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0 auto; /* Center container itself */
   }
 
-/*   .stackimg {
+  .bfrfoot input {
+    width: 100%; /* Full width input field */
+    max-width: 300px; /* Optional: Set a max-width for the input */
+  }
+
+  .bfrfoot .btn-red-gt {
+    width: 100%; /* Full width button */
+    max-width: 300px; /* Optional: Set a max-width for the button */
+  }
+  .bfrfoot span{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondboxcont{
     height: 35vh;
-    width: 90vw;
-    background-position: center;
-    left: 0;
-  } */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .secondcontent {
     width: 100%;
     text-align: center;
   }
   .footcontainer {
-    display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+  }
+  .footcontainer ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-direction: row;
+    text-align: center;
+  }
+  .langbtn{
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
