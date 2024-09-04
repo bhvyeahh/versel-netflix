@@ -406,12 +406,12 @@ select{
     padding-right: 10px;
   }
 
-  .stackimg {
+/*   .stackimg {
     height: 35vh;
     width: 90vw;
     background-position: center;
     left: 0;
-  }
+  } */
   .secondcontent {
     width: 100%;
     text-align: center;
